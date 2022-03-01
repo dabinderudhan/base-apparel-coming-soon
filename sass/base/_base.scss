@@ -10,8 +10,15 @@ body {
   min-height: 100vh;
   background-color: #000;
   gap: 1rem;
+  overflow: hidden;
 }
 
 img {
   width: 100%;
+}
+
+@media (min-width: 1250px) {
+  body {
+    width: 100vw;
+  }
 }
